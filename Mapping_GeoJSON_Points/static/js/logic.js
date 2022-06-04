@@ -28,9 +28,6 @@ let map = L.map('mapid', {
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
 
-// Then we add our 'graymap' tile layer to the map.
-// streets.addTo(map);
-
 // Accessing the airport GeoJSON URL
 let airportData = "https://raw.githubusercontent.com/jmreel/Mapping_Earthquakes/main/majorAirports.json";
 
